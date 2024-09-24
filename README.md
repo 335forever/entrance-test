@@ -6,4 +6,4 @@ In task 3, i use Redux to control the posts list data as well as 2 methods GET a
 - Each post component has the ability to change new content with a button
 - Table of contents for posts
 - Form to create new posts
-Try demo on : 
+- Try demo: [ByVercel](https://entrance-test-kappa.vercel.app/)
