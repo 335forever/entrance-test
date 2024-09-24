@@ -1,0 +1,120 @@
+.App {
+  width: 1400px;
+  max-width: 90%;
+  border: 3px rgb(250, 216, 216) solid;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+
+/***************************************************************************************/
+
+.field-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+  background-color: rgb(166, 190, 154);
+}
+
+.list {
+  border: solid rgb(95, 95, 95);
+  border-radius: 10px;
+  background-color: rgb(214, 214, 255);
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 350px;
+  max-width: 90%;
+}
+
+.list ul li{
+  width: 100px;
+}
+
+/***************************************************************************************/
+.post-form {
+  border: solid rgb(95, 95, 95);
+  border-radius: 10px;
+  background-color: rgb(214, 214, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  width: 350px;
+  max-width: 90%;
+
+}
+
+.post-form form{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.post-form label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.post-form label input {
+  border: none;
+  font-size: 24px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.post-form label textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+button {
+  width: fit-content;
+  padding: 5px 20px;
+  margin: 10px auto;
+}
+
+/***************************************************************************************/
+.field-right {
+  width: 70%;
+  background-color: rgb(253, 227, 253);
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-list {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+/***************************************************************************************/
+.post {
+  width: 400px;
+  height: 300px;
+  border: solid rgb(95, 95, 95);
+  border-radius: 10px;
+  background-color: rgb(217, 231, 185);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
